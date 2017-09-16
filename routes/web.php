@@ -12,7 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('acceuil');
+	return view('acceuil');
+});
+
+Route::get('/form', function () {
+	return view('form');
+});
+
+Route::get('/test', function () {
+	return view('fullMap');
 });
 
 Auth::routes();
@@ -23,3 +31,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/brigade', function(){
     return view('brigade');
 });
+

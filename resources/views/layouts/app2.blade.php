@@ -8,7 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/acceuil.css">
-	<link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
+	<link rel='stylesheet' href='css/fullcalendar.min.css' />
 </head>
 <body>
 

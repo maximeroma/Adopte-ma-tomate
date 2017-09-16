@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('acceuil');
 });
 
+Route::get('/test', function () {
+    return view('fullMap');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

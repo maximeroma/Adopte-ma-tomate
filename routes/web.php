@@ -12,11 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('acceuil');
+	return view('acceuil');
 });
 
 Route::get('/form', function () {
-    return view('form');
+	return view('form');
+});
+
+Route::get('/test', function () {
+	return view('fullMap');
 });
 
 Auth::routes();

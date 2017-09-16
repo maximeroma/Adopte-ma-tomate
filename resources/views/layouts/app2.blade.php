@@ -11,18 +11,23 @@
 	<link rel="stylesheet" type="text/css" href="css/form.css">
 	<link rel="stylesheet" type="text/css" href="css/acceuil.css">
 </head>
-<body>
+	<body>
 
-	<nav class="navbar navbar-light">
-		<a class="navbar-brand" href="/">
-			<img src="res/tomate/tomate-114-117469.png" width="75" height="75" class="img" alt="logo"/>
-			ADOPTE-MA-TOMATE
-		</a>
-	</nav>
+		<nav class="navbar navbar-light">
+			<a class="navbar-brand" href="/">
+				<img src="res/tomate/tomate-114-117469.png" width="75" height="75" class="img" alt="logo"/>
+				ADOPTE-MA-TOMATE
+			</a>
+		</nav>
 
-	@yield('content')
+		@yield('content')
 
 	<script type="text/javascript" src="js/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
-</body>
+	<script src='js/moment.min.js'></script>
+	<script src='js/fullcalendar.min.js'></script>
+	<script src='js/index.js'></script>
+
+
+	</body>
 </html>

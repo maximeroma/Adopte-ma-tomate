@@ -7,8 +7,9 @@
 	<title>Adopte-ma-tomate</title>
 	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/acceuil.css">
+	<link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
 	<link rel="stylesheet" type="text/css" href="css/form.css">
+	<link rel="stylesheet" type="text/css" href="css/acceuil.css">
 </head>
 <body>
 
@@ -23,6 +24,5 @@
 
 	<script type="text/javascript" src="js/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/acceuil.js"></script>
 </body>
 </html>

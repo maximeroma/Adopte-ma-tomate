@@ -22,3 +22,5 @@ Route::get('/form', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/brigade', 'BrigadeController@show');

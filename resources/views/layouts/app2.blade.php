@@ -6,23 +6,31 @@
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 	<title>Adopte-ma-tomate</title>
 	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 	<link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/form.css">
 	<link rel="stylesheet" type="text/css" href="css/acceuil.css">
 </head>
 <body>
 
-	<nav class="navbar navbar-light">
-		<a class="navbar-brand" href="/">
-			<img src="res/tomate/tomate-114-117469.png" width="75" height="75" class="img" alt="logo"/>
-			ADOPTE-MA-TOMATE
+	<nav id="navbar-example2" class="navbar navbar-light">
+		<a class="navbar-brand" href="#">
+			<img src="res/tomate/tomate-114-117469.png" width="75" height="75" alt="logo"/>
 		</a>
+		<ul class="nav nav-pills">
+			<li class="nav-item">
+				<h2>ADOPTE-MA-TOMATE</h2>
+			</li>
+		</ul>
 	</nav>
 
 	@yield('content')
 
+	<footer class="footer-basic-centered">
+		AGRICULTURE / ALIMENTATION &copy; 2017
+	</footer>
+
 	<script type="text/javascript" src="js/jquery/dist/jquery.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 </html>

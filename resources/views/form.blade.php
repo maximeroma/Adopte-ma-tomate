@@ -4,7 +4,9 @@
 
 <div class="container mgn_top">
 
-	<h4 class="text-center">Creation de votre compte</h4>
+	<h4>Creation de votre compte</h4>
+
+	<hr>
 
 	<form>
 		<div class="form-row">

@@ -56,9 +56,10 @@ function drawMarker(){
         marker.idlieuMarker = lieuxList[i].id;
 
         marker.addTo(map);
+        
 
         // marker.bindPopup('<div class="card4" style="width:15em;"><header class="container1"><h3>'+lieuxList[i].name+'</h3><i class="'+typesLieux[lieuxList[i].typeLieu-1].icon+' fa-2x" title="'+typesLieux[lieuxList[i].typeLieu-1].name+'" aria-hidden="true"></i></header><div class="kopcontrol container2"><i title="m\'ajouter a ce lieu" data-idlieu="'+lieuxList[i].id+'"  class="fa fa-plus-circle fa-2x kopPointeur lieuuser " aria-hidden="true"></i><img src="'+lieuxList[i].photo+'"></div><footer class="container3"><p>'+lieuxList[i].descriptif+'</p><div class="extra content" ><div class="insertUserDiv right floated author" data-idlieuToUser="'+lieuxList[i].id+'" ></div></div></footer></div>');
-        marker.bindPopup('<div class="card"><div class="card-block"><h3 class="card-title">Un jardin</h3><img src="res/defaultJardin.jpg"></img><p class="card-text"><strong>superficie:</strong> 400m² </p><p><a href="/brigade"><i class="fa fa-lg fa-plus-circle" aria-hidden="true"></i></a></p><p class="card-text"><strong>besoins:</strong>desherbage, elagage</p><p class="card-text">un jardin au calme avec de la salade</p></div></div>');
+        // marker.bindPopup('<div class="card"><div class="card-block"><h3 class="card-title">Un jardin</h3><img src="res/defaultJardin.jpg"></img><p class="card-text"><strong>superficie:</strong> 400m² <a href="/brigade"><i class="fa fa-calendar" aria-hidden="true"></i></a></p><p class="card-text"><strong>besoins:</strong></p><p class="card-text">un jardin au calme avec de la salade</p></div></div>');
 
     }
 

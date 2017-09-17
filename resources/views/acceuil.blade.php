@@ -39,9 +39,12 @@
 			</div>
 
 			<div class="col text-center">
-				<a href="#" class="img">
+
+
+				<a href="/cartographie" class="img">
 					<img src="res/jardiner.jpg" class="acc3">
 				</a>
+
 			</div>
 
 		</body>

@@ -23,8 +23,11 @@ Route::get('/form', function () {
 Route::get('/cartographie', function () {
 	if(Auth::check()) {
     	return view('fullMap');
+	}else {
+		return view('visiteurMap');
 	}
-	return view('visiteurMap');
+	
+
 });
 
 // Route::get('/getInfo', 'LieuController@getMapInfo');
@@ -45,4 +48,9 @@ Route::get('/brigade', function(){
     return view('brigade');
 });
 
+Route::get('/inbox', function ()  {
+return view('inbox');
+})->name('mesMessages');
 
+// Route::ressource('lieux', 'LieuController');
+Route::resource('lieux', 'LieuController');

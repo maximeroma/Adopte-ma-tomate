@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.carteVisitor')
 
 @section('content')
     <div id="mapid"></div>

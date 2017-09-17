@@ -21,9 +21,7 @@
         <nav class="navbar navbar-default navbar-static-top" style="background-color:#79E209;">
             <div class="container" >
                 <div class="navbar-header">
-                        <a class="navbar-brand" href="/">
-            <img  class="logo" src="res/tomate/tomate.png" width="32" height="32" alt="logo"/>
-        </a>
+
                     <!-- Collapsed Hamburger -->
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
                         <span class="sr-only">Toggle Navigation</span>
@@ -49,9 +47,10 @@
                         <!-- Authentication Links -->
                         @guest
                             <li><a href="{{ route('login') }}">Connexion</a></li>
+                            <li><a href="{{ route('register') }}">Inscription</a></li>
                             
                         @else
-                       <!--  <li><a href="/brigade">Ma brigade</a></li> -->
+                        <li><a href="/brigade">Ma brigade</a></li>
                         <a href="/inbox" class="btn btn-default navbar-btn">Messages&nbsp;<span class="badge">4</span></a>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -86,6 +85,6 @@
     <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/leaflet.js"></script>
-    <script type="text/javascript" src="js/fullMap.js"></script>
+    <script type="text/javascript" src="js/visitorMap.js"></script>
 </body>
 </html>

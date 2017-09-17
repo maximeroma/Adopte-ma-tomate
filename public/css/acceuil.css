@@ -15,7 +15,9 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
+.port img{
+	margin-left: 0.5em;
+}
 body {
 	font-family: 'PT Sans Narrow', sans-serif;
 	width: auto;

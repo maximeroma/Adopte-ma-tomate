@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/leaflet.css">
   <link rel="stylesheet" href="css/map.css">
   <link rel="stylesheet" href="fontawesome/css/font-awesome.css">
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -49,9 +50,10 @@
                         <!-- Authentication Links -->
                         @guest
                             <li><a href="{{ route('login') }}">Connexion</a></li>
+                            <li><a href="/form">Inscription</a></li>
                             
                         @else
-                       <!--  <li><a href="/brigade">Ma brigade</a></li> -->
+                        <li><a href="/info">Ma brigade</a></li>
                         <a href="/inbox" class="btn btn-default navbar-btn">Messages&nbsp;<span class="badge">4</span></a>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">

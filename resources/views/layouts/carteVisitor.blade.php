@@ -47,7 +47,7 @@
                         <!-- Authentication Links -->
                         @guest
                             <li><a href="{{ route('login') }}">Connexion</a></li>
-                            <li><a href="{{ route('register') }}">Inscription</a></li>
+                            <li><a href="/form">Inscription</a></li>
                             
                         @else
                         <li><a href="/brigade">Ma brigade</a></li>

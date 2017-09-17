@@ -29,7 +29,9 @@ Route::get('/cartographie', function () {
 	
 
 });
-
+Route::get('info' , function(){
+	return view('infoJardin');
+});
 // Route::get('/getInfo', 'LieuController@getMapInfo');
 
 

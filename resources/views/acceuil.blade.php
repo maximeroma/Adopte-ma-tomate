@@ -43,8 +43,6 @@
 					<img src="res/jardiner.jpg" class="acc3">
 				</a>
 			</div>
-		</div>
-	</div>
 
-</body>
-</html>
+		</body>
+		</html>

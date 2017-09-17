@@ -19,16 +19,30 @@ Route::get('/form', function () {
 	return view('form');
 });
 
+
+Route::get('/cartographie', function () {
+	if(Auth::check()) {
+    	return view('fullMap');
+	}
+	return view('visiteurMap');
+});
+
+// Route::get('/getInfo', 'LieuController@getMapInfo');
+
+
 Route::get('/test', function () {
 	return view('fullMap');
 });
+
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 
+
 Route::get('/brigade', function(){
     return view('brigade');
 });
+
 

@@ -36,5 +36,9 @@
 	</footer>
 
 	<script type="text/javascript" src="js/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script src='js/moment.min.js'></script>
+	<script src='js/fullcalendar.min.js'></script>
+	<script src='js/index.js'></script>
 </body>
 </html>

@@ -5,7 +5,7 @@
 	<div class="row">
 		<div class="col">
 			<div class="card text-white bg-success mb-3" style="width: 20rem; height: 17rem">
-				<a href="#" class="card-body">
+				<a href="user.show/{{ Auth::user() }}" class="card-body">
 					<h4 class="card-title">J'ai un jardin</h4>
 				</a>
 			</div>

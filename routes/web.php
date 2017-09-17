@@ -15,12 +15,20 @@ Route::get('/', function () {
     return view('acceuil');
 });
 
-Route::get('/test', function () {
-    return view('fullMap');
+Route::get('/cartographie', function () {
+	if(Auth::check()) {
+    	return view('fullMap');
+	}
+	return view('visiteurMap');
 });
+
+// Route::get('/getInfo', 'LieuController@getMapInfo');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 
-Route::get('/brigade', 'BrigadeController@show');
+// Route::get('/brigade', 'BrigadeController@show');
+
+Route::resource('lieux', 'LieuController');

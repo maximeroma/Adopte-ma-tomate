@@ -12,8 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('acceuil');
+	return view('acceuil');
 });
+
+Route::get('/form', function () {
+	return view('form');
+});
+
 
 Route::get('/cartographie', function () {
 	if(Auth::check()) {
@@ -24,11 +29,20 @@ Route::get('/cartographie', function () {
 
 // Route::get('/getInfo', 'LieuController@getMapInfo');
 
+
+Route::get('/test', function () {
+	return view('fullMap');
+});
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 
-// Route::get('/brigade', 'BrigadeController@show');
 
-Route::resource('lieux', 'LieuController');
+Route::get('/brigade', function(){
+    return view('brigade');
+});
+
+

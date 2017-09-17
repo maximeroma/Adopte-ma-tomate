@@ -1,0 +1,39 @@
+body {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+.top {
+    margin-top: 40px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    width: 100%;
+}
+.topo {
+    margin-top: 40px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.form {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.card {
+    margin: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+#calendar {
+    padding: 50px;
+}

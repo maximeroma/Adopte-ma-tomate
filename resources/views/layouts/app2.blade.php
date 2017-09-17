@@ -13,6 +13,7 @@
 	<link rel='stylesheet' href='css/fullcalendar.min.css' />
 	<link rel="stylesheet" type="text/css" href="css/form.css">
 	<link rel="stylesheet" type="text/css" href="css/acceuil.css">
+	<link rel="stylesheet" type="text/css" href="css/brigade.css">
 </head>
 <body>
 

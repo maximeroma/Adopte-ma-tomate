@@ -54,3 +54,4 @@ return view('inbox');
 
 // Route::ressource('lieux', 'LieuController');
 Route::resource('lieux', 'LieuController');
+

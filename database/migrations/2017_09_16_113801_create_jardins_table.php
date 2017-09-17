@@ -19,7 +19,7 @@ class CreateJardinsTable extends Migration
             $table->integer('superficie');
             $table->string('whishlist');
             $table->string('besoins_humains');
-            $table->string('photos');
+            $table->string('photos')->default('jardinDefault.jpg');
             $table->string('description');
             $table->integer('fk_lieux');
             $table->timestamps();

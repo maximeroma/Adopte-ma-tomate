@@ -19,19 +19,39 @@ Route::get('/form', function () {
 	return view('form');
 });
 
+
+Route::get('/cartographie', function () {
+	if(Auth::check()) {
+    	return view('fullMap');
+	}else {
+		return view('visiteurMap');
+	}
+	
+
+});
+
+// Route::get('/getInfo', 'LieuController@getMapInfo');
+
+
 Route::get('/test', function () {
 	return view('fullMap');
 });
+
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 
+
 Route::get('/brigade', function(){
     return view('brigade');
 });
 
-Route::get('/popup', function(){
-	return view('popup');
-});
+Route::get('/inbox', function ()  {
+return view('inbox');
+})->name('mesMessages');
+
+// Route::ressource('lieux', 'LieuController');
+Route::resource('lieux', 'LieuController');
+

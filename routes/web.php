@@ -32,3 +32,6 @@ Route::get('/brigade', function(){
     return view('brigade');
 });
 
+Route::get('/popup', function(){
+	return view('popup');
+});

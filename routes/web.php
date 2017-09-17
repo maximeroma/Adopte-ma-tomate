@@ -27,4 +27,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/brigade', 'BrigadeController@show');
+
+Route::get('/brigade', function(){
+    return view('brigade');
+});
+

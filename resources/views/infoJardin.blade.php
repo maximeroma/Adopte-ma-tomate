@@ -3,22 +3,26 @@
 @section('content')  
 
     <div class="container-fluid">
-        <h1 class="text-center">Un jardin</h1>
+        <!-- <h1 class="text-center">Un jardin</h1> -->
         <div class="row">
         <div class="col-md-6">
-           <img src="res/oasisIsGood.jpg" alt=""/>
-        </div>
+           <img src="res/oasisIsGood.jpg" style="width: 80%; margin-top:2px" alt=""/>
+        </div class="container">
          <div class="col-md-6">
-           <p><strong>superficie:</strong> 400 m2</p>
+           <p><strong>description </strong> un jardin au calme avec de la salade...</p>
+           <p><strong>superficie: </strong> 400 m2</p>
            <p><strong>Outils/ equipements disponible: </strong>acces au puit, motoculteur</p>
-           <p><strong>Besoins</strong>desherbage, elagage</p>
-           <p class="port"><strong>Brigade presente: </strong><img style="width: 3rem;" class="card-img-top" src="images/celine.jpg" alt="Card image cap"><img style="width: 3rem;" class="card-img-top" src="images/audrey.jpg" alt="Card image cap"><img style="width: 3rem;" class="card-img-top" src="images/octavia.jpg" alt="Card image cap"><img style="width: 3rem;" class="card-img-top" src="images/morel.jpg" alt="Card image cap"><img style="width: 3rem;" class="card-img-top" src="images/emilie.jpg" alt="Card image cap"></p>
+           <p><strong>Besoins: </strong>desherbage, elagage</p>
+           <p class="port"><strong>Brigade presente: </strong><img style="width: 3rem;" class="card-img-top" src="images/celine.jpg" alt="Card image cap"><img style="width: 3rem;" class="card-img-top" src="images/audrey.jpg" alt="Card image cap"><img style="width: 3rem;" class="card-img-top" src="images/octavia.jpg" alt="Card image cap"><img style="width: 3rem;" class="card-img-top" src="images/morel.jpg" alt="Card image cap"><img style="width: 3rem;" class="card-img-top" src="images/emilie.jpg" alt="Card image cap">
+           <a href="/brigade"><i class="fa fa-lg fa-calendar" aria-hidden="true"></i></a></p>
+
+
         </div>
         <div class="top">
             <h1 class="text-center">Brigade:</h1>
             <div class="topo">
                 <div class="row">
-                    <div class="card" style="width: 5rem;">
+                    <div class="card" style="width: 10rem;">
                         <img class="card-img-top" src="images/celine.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Celine</p>
@@ -27,7 +31,7 @@
                             <a href="#" class="card-link">Voir le profil</a>
                         </div>
                     </div>
-                    <div class="card" style="width: 5rem;">
+                    <div class="card" style="width: 10rem;">
                         <img class="card-img-top" src="images/audrey.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Audrey</p>
@@ -36,7 +40,7 @@
                             <a href="#" class="card-link">Voir le profil</a>
                         </div>
                     </div>
-                    <div class="card" style="width: 5rem;">
+                    <div class="card" style="width: 10rem;">
                         <img class="card-img-top" src="images/octavia.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Octavia</p>
@@ -49,7 +53,7 @@
             </div>
             <div class="topo">
                 <div class="row">
-                    <div class="card" style="width: 5rem;">
+                    <div class="card" style="width: 10rem;">
                         <img class="card-img-top" src="images/morel.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Morel</p>
@@ -58,7 +62,7 @@
                             <a href="#" class="card-link">Voir le profil</a>
                         </div>
                     </div>
-                    <div class="card" style="width: 5rem;">
+                    <div class="card" style="width: 10rem;">
                         <img class="card-img-top" src="images/emilie.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Emilie</p>
@@ -67,7 +71,7 @@
                             <a href="#" class="card-link">Voir le profil</a>
                         </div>
                     </div>
-                    <div class="card" style="width: 5rem;">
+                    <div class="card" style="width: 10rem;">
                         <img class="card-img-top" src="images/clemence.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Clemence</p>
@@ -80,7 +84,7 @@
             </div>
             <div class="topo">
                 <div class="row">
-                    <div class="card" style="width: 5rem;">
+                    <div class="card" style="width: 10rem;">
                         <img class="card-img-top" src="images/pmu.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Raphael</p>
@@ -89,7 +93,7 @@
                             <a href="#" class="card-link">Voir le profil</a>
                         </div>
                     </div>
-                    <div class="card" style="width: 5rem;">
+                    <div class="card" style="width: 10rem;">
                         <img class="card-img-top" src="images/maxime.jpg" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">Maxime</p>

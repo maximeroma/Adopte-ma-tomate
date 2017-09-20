@@ -108,7 +108,7 @@
                         <label for="message">Message</label>
                         <textarea class="form-control" id="message" name="message"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Envoyé</button>
+                    <button type="submit"  class="btn btn-primary contactMec">Envoyé</button>
                 </form>
             </div>
         </div>        

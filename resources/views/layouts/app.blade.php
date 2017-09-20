@@ -54,7 +54,7 @@
                             
                         @else
                         <li><a href="/info">Ma brigade</a></li>
-                        <a href="/inbox" class="btn btn-default navbar-btn">Messages&nbsp;<span class="badge">4</span></a>
+                        <a href="/inbox" class="btn btn-default navbar-btn">Messages&nbsp;<span class="badge">2</span></a>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                     {{ Auth::user()->name }} <span class="caret"></span>
@@ -89,5 +89,14 @@
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/leaflet.js"></script>
     <script type="text/javascript" src="js/fullMap.js"></script>
+    <script>
+        $('.addBrigade').on('click', function() {
+            alert('Membre ajouté avec succès');
+        });
+
+        $('.contactMec').on('click', function() {
+            alert('MVotre demande a bien ete envoyé');
+        });        
+    </script>
 </body>
 </html>

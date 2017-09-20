@@ -52,9 +52,9 @@ function drawMarker(){
 
     for (var i = 0; i < lieuxList.length; i++) {
 
-        var marker = L.marker( [lieuxList[i].latitude, lieuxList[i].longitude]).on('click', markerOnClick);
+        var marker = L.marker( ).on('click', markerOnClick);
         marker.idlieuMarker = lieuxList[i].id;
-
+        marker = L.circle([lieuxList[i].latitude, lieuxList[i].longitude], {radius: 7000}).addTo(map);
         marker.addTo(map);
         
 

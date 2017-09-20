@@ -41,5 +41,16 @@
 	<script src='js/moment.min.js'></script>
 	<script src='js/fullcalendar.min.js'></script>
 	<script src='js/index.js'></script>
+    <script>
+        $('.addBrigade').on('click', function(e) {
+        	e.preventDefault();
+            alert('Membre ajouté avec succès');
+        });
+
+        $('.contactMec').on('click', function(e) {
+        	e.preventDefault();
+            alert('Votre demande a bien ete envoyé');
+        });        
+    </script>
 </body>
 </html>
